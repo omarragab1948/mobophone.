@@ -1,0 +1,522 @@
+*
+{
+    margin: 0;
+    padding: 0
+}
+body
+{
+    border: 3px solid #000;
+    height: 3350px;
+    background-color: rgb(15, 15, 15)
+}
+header
+{
+    background-color: #000;
+    height: 65px;
+    text-align: center;
+    position:fixed;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+}
+.pagetitle
+{
+    font-family: arial , times new roman;
+    color: #00f;
+    font-weight: bolder;
+    position: relative;
+    top: 4px;
+    font-size: 50px
+}
+.kinds
+{
+    height: 55px;
+    width: 100%;
+    background: rgb(175, 174, 174);
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    border: .5px solid #000;
+    margin-bottom: 20px;
+}
+a
+{
+    font-family: arial , times new roman;
+    color: #000;
+    font-size: 30px;
+    margin: 67px;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    top: 10px
+}
+.sam:hover
+{
+    color:rgb(255, 0, 0)
+}
+.app:hover
+{
+    color:rgb(0, 17, 255)
+}
+.nok:hover
+{
+    color:rgb(0, 153, 255)
+}
+.hua:hover
+{
+    color:rgb(0, 121, 0)
+}
+.opp:hover
+{
+    color:rgb(255, 60, 0)
+}
+.xia:hover
+{
+    color:rgb(174, 0, 255)
+}
+.container
+{
+
+   position: relative;
+   left: 420px;
+   bottom: 5760px;
+   width: 600px;
+   height: auto
+
+}
+aside
+{
+    height: auto;
+    width: 350px;
+    position: relative;
+    left: 1045px;
+    top: 135px;
+    margin: 10px;
+    background-color: rgb(94, 93, 93);
+}
+
+img
+{
+    margin-bottom: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-left: 10px
+}
+.aside2
+{
+    height: auto;
+    width: 350px;
+    position: relative;
+    left: 20px;
+    bottom: 2810px;
+    margin: 10px;
+    background-color: rgb(94, 93, 93);
+}
+.mob1
+{
+    width: 600px;
+    height: 420px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(170, 170, 170);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+img[alt="M31"]
+{
+    width: 70px
+}
+.mob1 p
+{
+    color: rgb(255, 0, 0);
+    font-family: arial, times new roman;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    top: -150px
+}
+.mob1 h2
+{
+    color: #f00;
+    position: relative;
+    left: 140px;
+    top: -110px
+
+}
+.mob1 ol 
+{
+    position: relative;
+    left: 130px;
+    top: -60px;
+    color: #f00;
+    font-weight: bolder;
+
+}
+.mob1 a
+{
+    font-size: 20px;
+    color: rgb(4, 0, 255);
+    position: relative;
+    left: 70px;
+    top: -30px
+}
+.mob1 a:hover
+{
+    color:red
+}
+.mob2
+{
+    width: 600px;
+    height: 420px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(182, 181, 181);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+img[alt="note 10 lite"]
+{
+    width: 60px
+}
+.mob2 p
+{
+    color: rgb(0, 100, 13);
+    font-family: arial, times new roman;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: -110px
+}
+.mob2 h2
+{
+    color: rgb(0, 100, 13);
+    position: relative;
+    left: 160px;
+    top: -70px
+
+}
+.mob2 ol 
+{
+    position: relative;
+    left: 130px;
+    top: -40px;
+    color: rgb(0, 100, 13);
+    font-weight: bolder;
+
+}
+.mob2 a
+{
+    font-size: 20px;
+    color: rgb(0, 65, 126);
+    position: relative;
+    left: 70px;
+    top: 10px
+}
+.mob2 a:hover
+{
+    color:rgb(0, 100, 13)
+}
+
+.mob3
+{
+    width: 600px;
+    height: 420px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(182, 181, 182);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+img[alt="note 10 lite"]
+{
+    width: 70px
+}
+.mob3 p
+{
+    color: rgb(25, 0, 255);
+    font-family: arial, times new roman;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    top: -150px
+}
+.mob3 h2
+{
+    color: rgb(25, 0, 255);
+    position: relative;
+    left: 140px;
+    top: -110px
+
+}
+.mob3 ol 
+{
+    position: relative;
+    left: 130px;
+    top: -60px;
+    color: rgb(25, 0, 255);
+    font-weight: bolder;
+
+}
+.mob3 a
+{
+    font-size: 20px;
+    color: #00f;
+    position: relative;
+    left: 70px;
+    top: -30px
+}
+.mob3 a:hover
+{
+    color:rgb(25, 0, 255)
+}
+.mob4
+{
+    width: 600px;
+    height: 420px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(182, 181, 182);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+img[alt="note 10 lite"]
+{
+    width: 70px
+}
+.mob4 p
+{
+    color: rgb(255, 0, 0);
+    font-family: arial, times new roman;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    top: -150px
+}
+.mob4 h2
+{
+    color: rgb(196, 0, 0);
+    position: relative;
+    left: 140px;
+    top: -110px
+
+}
+.mob4 ol 
+{
+    position: relative;
+    left: 130px;
+    top: -60px;
+    color: rgb(182, 1, 1);
+    font-weight: bolder;
+
+}
+.mob4 a
+{
+    font-size: 20px;
+    color: #00f;
+    position: relative;
+    left: 70px;
+    top: -30px
+}
+.mob4 a:hover
+{
+    color:red
+}
+.mob5
+{
+    width: 600px;
+    height: 420px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(182, 181, 182);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+img[alt="note 10 lite"]
+{
+    width: 70px
+}
+.mob5 p
+{
+    color: rgb(255, 0, 0);
+    font-family: arial, times new roman;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: -120px
+}
+.mob5 h2
+{
+    color: rgb(196, 0, 0);
+    position: relative;
+    left: 150px;
+    top: -65px
+
+}
+.mob5 ol 
+{
+    position: relative;
+    left: 130px;
+    top: -30px;
+    color: rgb(182, 1, 1);
+    font-weight: bolder;
+
+}
+.mob5 a
+{
+    font-size: 20px;
+    color: #00f;
+    position: relative;
+    left: 70px;
+    top: px
+}
+.mob5 a:hover
+{
+    color:red
+}
+.mob6
+{
+    width: 600px;
+    height: 420px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(182, 181, 182);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+img[alt="note 10 lite"]
+{
+    width: 70px
+}
+.mob6 p
+{
+    color: rgb(0, 165, 187);
+    font-family: arial, times new roman;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    top: -150px
+}
+.mob6 h2
+{
+    color: rgb(0, 165, 187);
+    position: relative;
+    left: 140px;
+    top: -120px
+
+}
+.mob6 ol 
+{
+    position: relative;
+    left: 130px;
+    top: -60px;
+    color: rgb(0, 165, 187);
+    font-weight: bolder;
+
+}
+.mob6 a
+{
+    font-size: 20px;
+    color: rgb(0, 70, 70);
+    position: relative;
+    left: 70px;
+    top: -40px
+}
+.mob6 a:hover
+{
+    color:rgb(0, 165, 187)
+}
+.mob7
+{
+    width: 600px;
+    height: 420px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(182, 181, 182);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+img[alt="note 10 lite"]
+{
+    width: 70px
+}
+.mob7 p
+{
+    color: rgb(1, 136, 107);
+    font-family: arial, times new roman;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    left: 140px;
+    top: -110px
+}
+.mob7 h2
+{
+    color: rgb(1, 136, 107);
+    position: relative;
+    left: 140px;
+    top: -70px
+
+}
+.mob7 ol 
+{
+    position: relative;
+    left: 130px;
+    top: -30px;
+    color: rgb(1, 136, 107);
+    font-weight: bolder;
+
+}
+.mob7 a
+{
+    font-size: 20px;
+    color: #00f;
+    position: relative;
+    left: 70px;
+    top: 0px
+}
+.mob7 a:hover
+{
+    color:rgb(1, 136, 107)
+}
+img[alt="note 10 lite"]
+{
+    width:100px
+}
+img[alt="A51"]
+{
+    width:80px
+}
+img[alt="reno 3 pro"]
+{
+    width:70px
+}
+img[alt="iphone 11 pro max"]
+{
+    width:110px
+}
+img[alt="note 9 pro"]
+{
+    width:100px
+}
+img[alt="nokia ta-1234"]
+{
+    width:100px
+}
+footer
+{
+    height: 50px;
+    background-color: #000;
+    position: relative;
+    bottom: 5695px;
+    color: rgb(175, 174, 174);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial , times new roman;;
+    text-align: center;
+
+}
+footer p
+{
+    position: relative;
+    top: 15px
+}
